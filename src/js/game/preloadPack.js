@@ -21,4 +21,4 @@ export const preloadPack = [
   {src: 'logo.png', id: 'logo'},
   {src: 'btn.png', id: 'btn'},
   {src: 'window.png', id: 'window'},
-]
+];

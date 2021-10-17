@@ -1,10 +1,10 @@
-export default class State extends createjs.Container{
+export default class State extends createjs.Container {
   constructor(game) {
     super();
-    this.game = game
+    this.game = game;
   }
 
   create() {
-    console.log('content doesn\'t exist')
+    console.log('content doesn\'t exist');
   }
 }
