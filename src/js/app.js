@@ -6,10 +6,8 @@ window.addEventListener('load', init)
 function init() {
   const core = Core.get()
 
-  const manifest = preloadPack
-
   core.loader.addEventListener("complete", handleComplete);
-  core.loader.loadManifest(manifest, true, "assets/");
+  core.loader.loadManifest(preloadPack, true, "assets/");
 
   function handleComplete(event) {
     new Game()
