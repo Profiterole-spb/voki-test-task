@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build js": "rollup --config build.config.js",
+    "build image pack": "rollup --config images.bundler.config.js"
   },
   "author": "Andrey Sharshov <shrshovandrey@yandex.ru>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.45.2",
+    "rollup-plugin-string": "^3.0.0",
+    "node-html-parser": "^3.2.0"
   }
 }

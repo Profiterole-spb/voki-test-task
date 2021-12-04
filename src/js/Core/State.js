@@ -5,6 +5,6 @@ export default class State extends createjs.Container {
   }
 
   create() {
-    console.log('content doesn\'t exist');
+    console.log('a content doesn\'t exist');
   }
 }

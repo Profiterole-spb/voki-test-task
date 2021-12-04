@@ -97,18 +97,18 @@ export default class RoomState extends State {
     );
 
 
-    createjs.Tween.get(this.hammerIcon, {loop: false})
-        .to({alpha: 1}, 400);
-    createjs.Tween.get(this.hammerIcon, {loop: false})
-        .to({y: 258}, 600, createjs.Ease.getBackOut(3))
-        .call(() => {
-          this.hammerIcon.addEventListener('click', this.handleHammerIconClick);
-          createjs.Tween.get(this.hand, {loop: false})
-              .to({alpha: 1}, 400);
-          createjs.Tween.get(this.hand, {loop: true})
-              .to({x: 1030, y: 280}, 600, createjs.Ease.getPowInOut(2))
-              .to({x: 1010, y: 300}, 600, createjs.Ease.getPowInOut(2));
-        });
+    // createjs.Tween.get(this.hammerIcon, {loop: false})
+    //     .to({alpha: 1}, 400);
+    // createjs.Tween.get(this.hammerIcon, {loop: false})
+    //     .to({y: 258}, 600, createjs.Ease.getBackOut(3))
+    //     .call(() => {
+    //       this.hammerIcon.addEventListener('click', this.handleHammerIconClick);
+    //       createjs.Tween.get(this.hand, {loop: false})
+    //           .to({alpha: 1}, 400);
+    //       createjs.Tween.get(this.hand, {loop: true})
+    //           .to({x: 1030, y: 280}, 600, createjs.Ease.getPowInOut(2))
+    //           .to({x: 1010, y: 300}, 600, createjs.Ease.getPowInOut(2));
+    //     });
   }
 
   handleHammerIconClick() {

@@ -15,8 +15,8 @@ export default class UiState extends State {
     this.cta.regY = this.cta.getBounds().height / 2;
     this.addChild(this.logo, this.cta);
 
-    createjs.Tween.get(this.cta, {loop: true})
-        .to({scaleX: 1.05, scaleY: 1.05}, 400)
-        .to({scaleX: 1, scaleY: 1}, 400);
+    // createjs.Tween.get(this.cta, {loop: true})
+    //     .to({scaleX: 1.05, scaleY: 1.05}, 400)
+    //     .to({scaleX: 1, scaleY: 1}, 400);
   }
 }

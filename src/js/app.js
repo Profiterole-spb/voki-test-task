@@ -8,7 +8,7 @@ function init() {
   const core = Core.get();
 
   core.loader.addEventListener('complete', () => new Game());
-  core.loader.loadManifest(preloadPack, true, 'assets/');
+  core.loader.loadManifest(preloadPack, true, './assets/');
 }
 
 

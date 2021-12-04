@@ -11,7 +11,7 @@ export default class Core {
     this.view.id = 'view';
     this.view.width = 1390;
     this.view.height = 640;
-    this.view.style.backgroundColor = '#000000';
+    this.view.style.backgroundColor = '#ff0000';
     document.body.appendChild(this.view);
 
     this.stage = new createjs.Stage('view');
